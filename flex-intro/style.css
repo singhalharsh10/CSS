@@ -1,0 +1,47 @@
+/* css tricks flexboxes website use for any help always */
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: greenyellow;
+    margin: 20px;
+    
+    display:flex;
+    /* display: inline-flex; */
+
+    /* flex wrap is used to decide whether to start movement from start or end(wrap,wrap-reverse)  */
+   flex-wrap: wrap;
+
+/* flex direction is used to ecide whether to move columnwise of rowwise or in reverse order(row,row-reverse,column,column-reverse) */
+   flex-direction: row;  
+
+/* justify content: how items ar aligned in a  row or used to decide whether last row ends at normal or at right corner or in middle(start,middle,end)*/
+justify-content: center;
+
+/* align items within a row  perpendicularly(flex-end,center,flex-start)  basically ek line m lata h saare dabbe ko  */
+align-items: flex-end;
+
+
+/* how allrows together are aligned */
+align-content: center;
+
+
+
+}
+
+
+
+
+
+.item{
+    border: black solid 3px;
+    background-color: lightseagreen;
+    width: 50px;
+    /* margin: 10px; */
+    height: 50px;
+    text-align: center;
+
+    /* for vertical alignment */
+    line-height: 40px;
+
+}
