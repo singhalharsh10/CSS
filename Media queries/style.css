@@ -1,0 +1,25 @@
+.box{
+    width:100px;
+    height:100px;
+    background-color: lime;
+}
+
+/* media means below 900px box size , the following property must be overwrite the corresponding above properties */
+@media (max-width:900px)
+{
+
+    .box{
+        background-color: red;
+        /* border:black solid 2px; */
+    }
+
+}
+
+@media (max-width: 600px)
+{
+    .box{
+        background-color: purple;
+    }
+}
+
+
