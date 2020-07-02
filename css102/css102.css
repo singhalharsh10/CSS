@@ -1,0 +1,18 @@
+.bx{
+    margin: 20px;
+    padding: 10px;
+    border: solid black 5px;
+}
+
+#div1{
+    background-color: red;
+}
+
+
+#div2{
+    background-color: yellow;
+}
+
+#div3{
+    background-color: lightblue;
+}
