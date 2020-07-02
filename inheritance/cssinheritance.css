@@ -1,0 +1,26 @@
+#id1{
+    background-color: lightgreen;;
+}
+
+*{
+    background-color:violet;
+}
+
+
+.cl1
+{
+    background-color: lightcoral ;
+}
+
+div{
+    background-color: lightseagreen;
+}
+
+  /* here first property replaced by second */
+ #id1{
+     background-color: lightblue;
+ }
+
+/*  Order of CSS   id> class > element > *     */
+
+
