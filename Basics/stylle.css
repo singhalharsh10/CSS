@@ -1,0 +1,25 @@
+div
+       { 
+           color:red;
+           font-size: 14pt;
+
+       }
+
+       /* p
+       {
+           background-color:azure;
+       } */
+
+
+h2 + p{      /* sibling combinators */
+    font-weight:bold;
+}
+
+h2 ~ p{
+    color: red;
+
+}
+
+section>p{
+    background-color: aqua;
+}

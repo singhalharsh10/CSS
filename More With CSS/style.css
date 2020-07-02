@@ -1,0 +1,25 @@
+/* * applies for all */
+*{
+color:red;
+}
+/* Ellemnt selector */
+div{
+    margin-left: 30px;
+
+}
+
+
+p{
+    font-size: 30px;
+}
+
+/* Css On ID */
+
+#p2{
+    font-family: "Courier";
+}
+
+
+#p3{
+    margin-left: 20px;;
+}

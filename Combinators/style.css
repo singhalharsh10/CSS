@@ -1,0 +1,19 @@
+h2 +p  
+{
+    color:red;
+}
+
+ h2~p{       /* means all p tag after h2 tag becomes blue .It is a sibling combinator*/
+    color:blue;
+}
+
+ section >  p
+ {        /*descendant combinator */
+    background-color: aqua;
+}
+
+section p
+{
+    font-family: monospace;
+}
+
